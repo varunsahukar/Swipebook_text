@@ -1,48 +1,61 @@
-# Textbook Analysis Chatbot
+# Swipebook Text 
 
-##  Project Overview
-
-The **Textbook Analysis Chatbot** is an AI-powered web application built with modern frontend technologies and a Large Language Model (LLM).  
-It allows users to **upload documents (such as textbooks, PDFs, or notes)** and interact with them through intelligent prompts — enabling **summarization, question answering, and contextual analysis** based on the uploaded content.
+**Swipebook Text** is a modern textbook analysis chatbot web application built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **shadcn/ui**.  
+It allows users to upload documents, ask custom prompts, and get intelligent summaries or answers powered by a **Large Language Model (LLM)**.
 
 ---
 
 ##  Features
 
--  **Document Upload** – Users can upload textbooks, notes, or study material.  
--  **Prompt-based Chat** – Interact with the uploaded document using natural language queries.  
--  **AI Summarization** – Generate concise summaries of long chapters or sections.  
--  **User Authentication** – Secure login and signup pages with session handling.  
--  **Sidebar Navigation** – Easily manage multiple chats and start a **New Chat** anytime.  
--  **LLM-Powered Insights** – Uses advanced language modeling to extract relevant information from documents.
+-  **Document Upload**: Upload textbooks or study materials for analysis  
+-  **Interactive Chat**: Ask questions or enter prompts related to the uploaded document  
+-  **Smart Responses**: Receive instant summaries, explanations, or answers from the chatbot  
+-  **Authentication**: Clean login and signup flow  
+-  **Conversation Management**: Sidebar with “New Chat” functionality to manage multiple chats  
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
-| Technology | Description |
-|-------------|--------------|
-| **Vite** | Lightning-fast frontend build tool |
-| **React** | Component-based UI library |
-| **TypeScript** | Strongly typed JavaScript |
-| **shadcn-ui** | Modern UI component library |
-| **Tailwind CSS** | Utility-first styling framework |
+| Layer           | Technology                       |
+|-----------------|---------------------------------|
+| Frontend        | React + TypeScript               |
+| Styling         | Tailwind CSS + shadcn/ui         |
+| Build Tool      | Vite                             |
+| Authentication  | Custom (Login / Signup pages)    |
+| AI Engine       | Large Language Model (LLM) backend |
+| Deployment      | Vercel                           |
 
 ---
 
-##  Getting Started
+## ⚡ Installation & Setup
 
-Follow these steps to set up the project locally.
+Make sure you have **Node.js (v18+)** and **npm** installed.  
+You can install Node via [nvm](https://github.com/nvm-sh/nvm).
 
 ```bash
-# 1 Clone the repository
-git clone <https://github.com/varunsahukar/bookworm-buddy-98.git>
+# 1. Clone the repository
+git clone https://github.com/varunsahukar/Swipebook_text.git
 
-# 2 Navigate to the project directory
-cd <YOUR PROJECT NAME>
+# 2. Navigate into the project directory
+cd Swipebook_text
 
-# 3 Install dependencies
+# 3. Install dependencies
 npm install
 
-# 4 Run the development server
+# 4. Start the development server
 npm run dev
+
+
+
+Project Structure 
+Swipebook_text/
+├── public/          # Static assets
+├── src/
+│   ├── components/  # Reusable UI components
+│   ├── pages/       # Login, Signup, Chat pages
+│   ├── hooks/       # Custom React hooks
+│   ├── services/    # API calls and LLM integrations
+│   └── App.tsx      # Main application entry
+├── package.json
+└── vite.config.ts
