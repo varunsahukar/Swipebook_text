@@ -36,13 +36,13 @@ Follow these steps to set up the project locally.
 
 ```bash
 # 1 Clone the repository
-git clone <YOUR_GIT_URL>
+git clone <https://github.com/varunsahukar/bookworm-buddy-98.git>
 
 # 2 Navigate to the project directory
-cd <YOUR_PROJECT_NAME>
+cd <YOUR PROJECT NAME>
 
 # 3 Install dependencies
 npm install
 
-# 4️⃣ Run the development server
+# 4 Run the development server
 npm run dev
