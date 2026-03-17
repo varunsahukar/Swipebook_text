@@ -30,8 +30,8 @@ It allows users to upload documents, ask custom prompts, and get intelligent sum
 
 ## ⚡ Installation & Setup
 
-Make sure you have **Node.js (v18+)** and **npm** installed.  
-You can install Node via [nvm](https://github.com/nvm-sh/nvm).
+Make sure you have **Node.js (v18+)** and **npm** installed
+You can install Node via [nvm](https://github.com/nvm-sh/nvm)
 
 ```bash
 # 1. Clone the repository
