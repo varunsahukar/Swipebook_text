@@ -1,7 +1,7 @@
 # Swipebook 
 
 **Swipebook Text** is a modern textbook analysis chatbot web application built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **shadcn/ui**.  
-It allows users to upload documents, ask custom prompts, and get intelligent summaries or answers powered by a **Large Language Model (LLM)**.
+It allows users to upload documents, ask custom prompts, and get intelligent summaries or answers powered by a **Large Language Model (LLM)**
 
 ---
 
